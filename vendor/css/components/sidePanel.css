@@ -11,6 +11,10 @@
 
 .sidePanel .nav-link {
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 15px;
+    background: #1D2027;
     padding-left: 35px;
     transition: .1s background;
     transition: .2s padding-left;
@@ -33,4 +37,33 @@
 
 .sidePanel .fas {
     padding-right: 5px;
+}
+
+/* Dropdowns */
+.dropdown-btn {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 15px;
+    padding-left: 35px;
+    transition: .1s background;
+    transition: .2s padding-left;
+    background: #1D2027;
+    border: none !important;
+    text-align: left;
+}
+
+.dropdown-btn:hover {
+    padding-left: 50px;
+    transition: .2s padding-left;
+}
+
+.dropdown-container {
+    display: none;
+    padding-left: 35px;
+    background: none !important;
+}
+
+.dropdown-container .nav-link {
+    background: none !important;
 }

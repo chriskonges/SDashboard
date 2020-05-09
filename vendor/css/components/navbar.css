@@ -4,6 +4,9 @@
 
 .navbar-brand {
     color: white !important;
+    font-family: 'Permanent Marker', cursive;
+    color: #0F7BB0 !important;
+    font-size: 30px;
 }
 
 .profile-pic {
