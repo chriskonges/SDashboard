@@ -12,7 +12,7 @@
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">SDashboard</a>
+      <a class="navbar-brand" href="../index.html">SDashboard</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,62 +31,120 @@
     </nav> 
     
     <div class="row container-fluid">
-      <div class="col-lg-2 col-md-4 col-sm-1 sidePanel">
-        <nav class="nav flex-column">
-          <a class="nav-link" href="#"><i class="fas fa-home"></i> Dashboard</a>
+        <div class="col-lg-2 col-md-4"></div>
+        <div class="col-lg-2 col-md-4 col-sm-1 sidePanel">
+            <nav class="nav flex-column">
+            <a class="nav-link" href="#"><i class="fas fa-home"></i> Dashboard</a>
 
-          <button class="dropdown-btn"><i class="fas fa-copy"></i> Pages</a> 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Login</a>
-            <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Cards</a>
-          </div>
+            <button class="dropdown-btn"><i class="fas fa-copy"></i> Pages</a> 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Login</a>
+                <a class="nav-link dropdown-btn" href="./pages/alerts.html"><i class="fas fa-copy"></i> Alerts</a>
+                <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Cards</a>
+            </div>
 
-          <button class="dropdown-btn"><i class="fas fa-columns"></i> Layouts</a> 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Text</a>
-            <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Text</a>
-            <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Text</a>
-          </div>
+            <button class="dropdown-btn"><i class="fas fa-columns"></i> Layouts</a> 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Text</a>
+                <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Text</a>
+                <a class="nav-link dropdown-btn" href="#"><i class="fas fa-copy"></i> Text</a>
+            </div>
 
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-minus"></i> Disabled</a>
-        </nav>
-      </div>
-
-      <div class="col-lg-2 col-md-4"></div>
-
-      <div class="container col-lg-9 col-md-8 content">
-        <div class="row">
-            <div class="col-4 dev">
-                <div class="alert alert-primary" role="alert">
-                Primary Alert
-                </div>
-            </div>
-            <div class="col-4 dev">
-                <div class="alert alert-success" role="alert">
-                Success Alert
-                </div>
-            </div>
-            <div class="col-4 dev">
-                <div class="alert alert-danger" role="alert">
-                Danger Alert
-                </div>
-            </div>
-            <div class="col-4 dev">
-                <div class="alert alert-warning" role="alert">
-                Warning Alert
-                </div>
-            </div>
-            <div class="col-4 dev">
-                <div class="alert alert-info" role="alert">
-                Info Alert
-                </div>
-            </div>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-minus"></i> Disabled</a>
+            </nav>
         </div>
+
+        <div class="container col-lg-9 col-md-8 content">
+            <h3>Alerts - Without Icons</h3>
+            <div class="row">
+                <div class="col-4 dev">
+                    <div class="alert alert-primary" role="alert">
+                    Primary Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-success" role="alert">
+                    Success Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-danger" role="alert">
+                    Danger Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-warning" role="alert">
+                    Warning Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-info" role="alert">
+                    Info Alert
+                    </div>
+                </div>
+            </div>
+            <h3>Alerts - With Icons</h3>
+            <div class="row">
+                <div class="col-4 dev">
+                    <div class="alert alert-primary" role="alert">
+                    <i class="fas fa-info-circle"></i> Primary Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-success" role="alert">
+                    <i class="fas fa-check-circle"></i> Success Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-danger" role="alert">
+                    <i class="fas fa-exclamation-circle"></i> Danger Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-warning" role="alert">
+                    <i class="fas fa-exclamation-circle"></i> Warning Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-info" role="alert">
+                    <i class="fas fa-info-circle"></i> Info Alert
+                    </div>
+                </div>
+            </div>
+            <h3>Alerts - Colour Backgrounds</h3>
+            <div class="row">
+                <div class="col-4 dev">
+                    <div class="alert alert-primary-bg" role="alert">
+                    Primary Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-success-bg" role="alert">
+                    Success Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-danger-bg" role="alert">
+                    Danger Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-warning-bg" role="alert">
+                    Warning Alert
+                    </div>
+                </div>
+                <div class="col-4 dev">
+                    <div class="alert alert-info-bg" role="alert">
+                    Info Alert
+                    </div>
+                </div>
+            </div>
       </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
