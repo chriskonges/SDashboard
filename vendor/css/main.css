@@ -35,3 +35,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+span {
+    font-size: 15px !important;
+    color: gray;
+}
