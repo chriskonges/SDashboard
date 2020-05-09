@@ -1,0 +1,29 @@
+.alert {
+    background: #2E353F;
+    border: none;
+    color: white;
+    border-radius: 0px;
+    padding-left: 20px;
+}
+
+.alert-primary {
+    border-left: 2px #114969 solid;
+}
+
+.alert-success {
+    border-left: 2px #27ae60 solid;
+}
+
+.alert-danger {
+    border-left: 2px #E46059 solid;
+}
+
+.alert-warning {
+    border-left: 2px #f39c12 solid;
+}
+
+.alert-info {
+    border-left: 2px #2980b9 solid;
+}
+
+

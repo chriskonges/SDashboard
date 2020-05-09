@@ -33,6 +33,7 @@
 
 .sidePanel .active {
     background: #21262C;
+    font-weight: 700;
 }
 
 .sidePanel .fas {
