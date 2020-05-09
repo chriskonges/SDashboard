@@ -5,3 +5,8 @@
 .navbar-brand {
     color: white !important;
 }
+
+.profile-pic {
+    border-radius: 100px !important;
+    margin-right: 5px;
+}

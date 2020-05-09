@@ -1,6 +1,7 @@
 /* vv Components vv */
 
 @import "./components/navbar.css";
+@import "./components/sidePanel.css";
 
 /* ^^ Components ^^ */
 
@@ -9,3 +10,6 @@
     margin: 0;
 }
 
+body {
+    background: #1D2027;
+}

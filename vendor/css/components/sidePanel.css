@@ -1,0 +1,36 @@
+.sidePanel {
+    background: #191C21;
+    height: 100%;
+    position: fixed;
+    padding: 0px;
+}
+
+.sidePanel .nav {
+    margin: 0px;
+}
+
+.sidePanel .nav-link {
+    color: white;
+    padding-left: 35px;
+    transition: .1s background;
+    transition: .2s padding-left;
+}
+
+.sidePanel .nav-link:hover {
+    background: #21262C;
+    transition: .1s background;
+    padding-left: 50px;
+    transition: .2s padding-left;
+}
+
+.sidePanel .disabled {
+    color: grey !important;
+}
+
+.sidePanel .active {
+    background: #21262C;
+}
+
+.sidePanel .fas {
+    padding-right: 5px;
+}
