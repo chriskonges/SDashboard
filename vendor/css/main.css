@@ -1,0 +1,11 @@
+/* vv Components vv */
+
+@import "./components/navbar.css";
+
+/* ^^ Components ^^ */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
